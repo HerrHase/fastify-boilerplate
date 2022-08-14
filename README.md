@@ -27,8 +27,10 @@ yarn run start
 
 ## Static & EtaHelper
 
-To handle files from manifest.json that are generated from Laravel-Mix, you can
-use **asset()** in the templates.
+All Static Files that are handle by Laravel Mix are copied to /static. You find
+the webpack.mix.js in /packages/frontend. Fastify will handle all request for
+static files by **/static/<filename>**. To handle files from manifest.json you
+can use **asset()** in the templates.
 
 ```
 <link href="{{ asset('/static/css/styles.css') }}" rel="stylesheet" type="text/css">
