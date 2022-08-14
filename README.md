@@ -7,6 +7,8 @@ Small simple Boilerplate for developing Websites or Webapps with,
 * Wrapper for Webpack - [Laravel-Mix](https://laravel-mix.com/)
 * CSS Framework - [Plain UI](https://plain-ui.com/)
 
+First step, copy the .env.example to .env and add your own values.
+
 Install packages:
 
 ```
