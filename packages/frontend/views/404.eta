@@ -1,0 +1,24 @@
+{{# layout('layout') }}
+
+
+{{# section('content') { }}
+<h1 class="site-header__title">
+    {{ page.data.title }}
+</h1>
+
+<div class="container">
+    <div class="grid">
+        <div class="col-12">
+            <div class="content">
+                {% if settings.404_message %}
+                {{ settings.404_message }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{{# endsection }}
+
+{{# push('footer') { }}
+
+{{# } }}

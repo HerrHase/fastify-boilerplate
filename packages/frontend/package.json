@@ -1,0 +1,21 @@
+{
+    "name": "frontend",
+    "version": "0.1.0",
+    "license": "MIT",
+    "scripts": {
+        "build": "npx mix",
+        "build-production": "npx mix --production"
+    },
+    "dependencies": {
+        "@tiny-components/plain-ui": "^0.6.0",
+        "riot": "^7.0.2"
+    },
+    "devDependencies": {
+        "@riotjs/webpack-loader": "^6.0.0",
+        "laravel-mix": "^6.0.49",
+        "laravel-mix-purgecss": "^6.0.0",
+        "sass": "^1.54.4",
+        "sass-loader": "^12.1.0",
+        "svg-spritemap-webpack-plugin": "^4.5.0"
+    }
+}

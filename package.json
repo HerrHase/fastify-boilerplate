@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "name": "lesson-learned",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "yarn workspace frontend run build",
+        "start": "yarn workspace server run start"
+    }
+}
