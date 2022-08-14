@@ -6,6 +6,7 @@
     ],
     "scripts": {
         "build": "yarn workspace frontend run build",
+        "build-production": "yarn workspace frontend run build-production",
         "start": "yarn workspace server run start"
     }
 }
